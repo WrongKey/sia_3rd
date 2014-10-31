@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <context:annotation-config/>
+
+    <!--<start id="guitar">-->
+    <bean id="instrumentalist"
+          class="com.wrongkey.springidol.Instrumentalist">
+        <!--<property name="name" value="wrongkey" />-->
+        <!--<property name="song" value="Jingle Bells" />-->
+    </bean>
+    <!--<end id="instrumentalist">-->
+
+    <!--<start id="guitar">-->
+    <bean id="guitar"
+          class="com.wrongkey.springidol.Guitar"/>
+    <!--<start id="guitar">-->
+
+    <!--<start id="saxophone">-->
+    <bean id="saxophone"
+          class="com.wrongkey.springidol.Saxophone"/>
+    <!--<start id="saxophone">-->
+</beans>
